@@ -53,6 +53,7 @@ body{
 
 /* Sidebar */
 .sidebar{
+    position: fixed; /*Se debe poner arriba del display grid para que cascada ayude*/
     display: grid;
     background-color: inherit;
     grid-row: 1 / 4;
